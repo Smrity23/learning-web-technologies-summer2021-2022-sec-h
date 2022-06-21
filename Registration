@@ -1,0 +1,30 @@
+<html>
+    <head>
+<title>Registration</title>
+<body>
+<form action="Regcheck.php" method="post" enctype="">
+<fieldset>
+    <legend>Registration</legend>
+    Id<br>
+    <input type="number" name="id" value=""/>
+    <br>
+    password <br>
+    <input type="password" name="password" value="">
+    <br>
+    Confirm password <br>
+    <input type="password" name="Confirm password" value="">
+    <br>
+    Name<br>
+    <input type="text" name="name" value="">
+    <br>
+    User type<br>
+    <input type="radio" name="UserSelect" value="">user
+    <input type="radio" name="UserSelect" value="">Admin
+    <br>
+    <input type="submit" name="submit" value="sign Up"/>
+    <a href="Login.html">Sign In</a>
+</fieldset>
+</form>
+</body>
+ </head>
+</html>
